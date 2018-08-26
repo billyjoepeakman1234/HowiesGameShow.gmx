@@ -12,6 +12,7 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\object0</object>
+    <object>objects\OBJFOEOFOE</object>
   </objects>
   <help>
     <rtf>help.rtf</rtf>
