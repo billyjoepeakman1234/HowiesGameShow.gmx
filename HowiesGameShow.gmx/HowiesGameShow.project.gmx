@@ -5,9 +5,18 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_TEMP_Player</sprite>
+    <sprite>sprites\spr_TEMP_Wall</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_Camera</object>
+    <object>objects\obj_Player</object>
+    <object>objects\obj_Parent</object>
+    <object>objects\obj_Wall</object>
+  </objects>
   <rooms name="rooms">
     <room>rooms\rm_Boot</room>
   </rooms>
