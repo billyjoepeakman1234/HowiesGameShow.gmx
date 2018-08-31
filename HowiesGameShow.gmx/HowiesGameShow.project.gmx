@@ -23,6 +23,22 @@
       <sprites name="Glock">
         <sprite>sprites\Spr_Player_Glock</sprite>
       </sprites>
+      <sprites name="Animations">
+        <sprites name="GlockAnims">
+          <sprite>sprites\Spr_Glockshoot</sprite>
+        </sprites>
+        <sprites name="DeagleAnims">
+          <sprite>sprites\Spr_Deagleshoot</sprite>
+        </sprites>
+        <sprites name="DuelWieldPistols">
+          <sprites name="DeagleAnims">
+            <sprite>sprites\Spr_DuelDeagleShoot</sprite>
+          </sprites>
+          <sprites name="GlockAnims">
+            <sprite>sprites\Spr_DuelGlockShoot</sprite>
+          </sprites>
+        </sprites>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
