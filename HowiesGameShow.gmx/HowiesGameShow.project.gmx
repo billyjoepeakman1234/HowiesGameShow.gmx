@@ -8,6 +8,22 @@
   <sprites name="sprites">
     <sprite>sprites\spr_TEMP_Player</sprite>
     <sprite>sprites\spr_TEMP_Wall</sprite>
+    <sprites name="Player">
+      <sprites name="Gun/Arm Variants">
+        <sprites name="Glock">
+          <sprite>sprites\Spr_Glock_Onehand</sprite>
+        </sprites>
+        <sprites name="Deagle">
+          <sprite>sprites\Spr_Deagle_Onehand</sprite>
+        </sprites>
+      </sprites>
+      <sprites name="Deagle">
+        <sprite>sprites\Spr_Player_Deagle</sprite>
+      </sprites>
+      <sprites name="Glock">
+        <sprite>sprites\Spr_Player_Glock</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
