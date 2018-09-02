@@ -44,6 +44,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_PlayerFire.gml</script>
+    <script>scripts\scr_WeaponArray.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_Camera</object>

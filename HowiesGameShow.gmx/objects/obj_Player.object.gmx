@@ -59,6 +59,9 @@ global.weapon = 0;
             <kind>1</kind>
             <string>///Movement and Collision
 
+//Weapon Array
+scr_WeaponArray();
+
 dir = point_direction(x, y, mouse_x, mouse_y);
 var hdir = 0; vdir = 0;
 
