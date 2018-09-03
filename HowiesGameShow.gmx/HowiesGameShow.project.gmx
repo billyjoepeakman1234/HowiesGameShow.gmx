@@ -27,9 +27,11 @@
       <sprites name="Animations">
         <sprites name="GlockAnims">
           <sprite>sprites\Spr_Glockshoot</sprite>
+          <sprite>sprites\Spr_GlockReload</sprite>
         </sprites>
         <sprites name="DeagleAnims">
           <sprite>sprites\Spr_Deagleshoot</sprite>
+          <sprite>sprites\Spr_DeagleReload</sprite>
         </sprites>
         <sprites name="DuelWieldPistols">
           <sprites name="DeagleAnims">
@@ -39,6 +41,15 @@
             <sprite>sprites\Spr_DuelGlockShoot</sprite>
           </sprites>
         </sprites>
+        <sprites name="Walk">
+          <sprite>sprites\Spr_GlockWalk</sprite>
+          <sprite>sprites\Spr_DeagleWalk</sprite>
+          <sprite>sprites\Spr_Deaglex2Walk</sprite>
+          <sprite>sprites\Spr_Glockx2Walk</sprite>
+        </sprites>
+      </sprites>
+      <sprites name="Feet">
+        <sprite>sprites\Spr_Feet</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -53,6 +64,7 @@
     <object>objects\obj_Player</object>
     <object>objects\obj_Parent</object>
     <object>objects\obj_Wall</object>
+    <object>objects\obj_Plyr_Feet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Boot</room>
