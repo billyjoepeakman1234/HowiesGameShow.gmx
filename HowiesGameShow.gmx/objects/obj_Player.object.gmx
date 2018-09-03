@@ -33,7 +33,7 @@ dir = 0;
 spd = 3.5;
 moved = false;
 
-global.weapon = 1;
+global.weapon = 0;
 
 </string>
           </argument>
