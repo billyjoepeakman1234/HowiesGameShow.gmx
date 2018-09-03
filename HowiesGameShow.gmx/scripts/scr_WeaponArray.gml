@@ -21,7 +21,7 @@
 //Empty Array
 for (i = 0; i < global.weapon; i ++) {
 
-    for (j = 0; j < 5; i ++) {
+    for (j = 0; j < 3; j ++) {
     
         global.weaponArray[i, j] = 0;
     
@@ -31,32 +31,32 @@ for (i = 0; i < global.weapon; i ++) {
 
 //Deagle
 global.weaponArray[1, 0] = "Deagle";
-global.weaponArray[1, 1] = 0;
-global.weaponArray[1, 2] = 0;
-global.weaponArray[1, 3] = 0;
-global.weaponArray[1, 4] = 0;
-global.weaponArray[1, 5] = 0;
-global.weaponArray[1, 6] = 0;
-global.weaponArray[1, 7] = 7;
-global.weaponArray[1, 8] = 21;
-global.weaponArray[1, 9] = 7;
-global.weaponArray[1, 10] = snd_Reload_1;
+global.weaponArray[1, 1] = spr_Player_Deagle;
+global.weaponArray[1, 2] = obj_Bullet_Deagle;
+global.weaponArray[1, 3] = 50;
+global.weaponArray[1, 4] = 50;
+global.weaponArray[1, 5] = snd_Deagle;
+global.weaponArray[1, 6] = 7;
+global.weaponArray[1, 7] = 21;
+global.weaponArray[1, 8] = 7;
+global.weaponArray[1, 9] = snd_Reload_1;
+global.weaponArray[1, 10] = 0;
 global.weaponArray[1, 11] = 5;
 global.weaponArray[1, 12] = 0;
 global.weaponArray[1, 13] = 0;
 
 //Clock
 global.weaponArray[1, 0] = "Glock";
-global.weaponArray[1, 1] = 0;
-global.weaponArray[1, 2] = 0;
-global.weaponArray[1, 3] = 0;
-global.weaponArray[1, 4] = 0;
-global.weaponArray[1, 5] = 0;
-global.weaponArray[1, 6] = 0;
-global.weaponArray[1, 7] = 15;
-global.weaponArray[1, 8] = 45;
-global.weaponArray[1, 9] = 15;
-global.weaponArray[1, 10] = snd_Reload_1;
+global.weaponArray[1, 1] = spr_Player_Glock;
+global.weaponArray[1, 2] = obj_Bullet_Glock;
+global.weaponArray[1, 3] = 50;
+global.weaponArray[1, 4] = 50;
+global.weaponArray[1, 5] = snd_Glock;
+global.weaponArray[1, 6] = 15;
+global.weaponArray[1, 7] = 45;
+global.weaponArray[1, 8] = 15;
+global.weaponArray[1, 9] = snd_Reload_1;
+global.weaponArray[1, 10] = 0;
 global.weaponArray[1, 11] = 7;
 global.weaponArray[1, 12] = 0;
 global.weaponArray[1, 13] = 0;
